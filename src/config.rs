@@ -76,6 +76,7 @@ lazy_static::lazy_static! {
     pub static ref BUILTIN_SETTINGS: RwLock<HashMap<String, String>> = Default::default();
 }
 
+
 lazy_static::lazy_static! {
     pub static ref APP_DIR: RwLock<String> = Default::default();
 }
